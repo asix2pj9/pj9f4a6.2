@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "dacomo"
   config.vm.provider "virtualbox" do |v|
     # v.gui = true
-    v.name = "pj9f4a6.2"
+    v.name = "pj9f4a62"
     v.memory = 2048
     v.cpus = 1
     v.customize ['modifyvm', :id, '--clipboard', 'bidirectional']     
